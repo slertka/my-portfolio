@@ -1,0 +1,185 @@
+@media only screen and (max-height: 823px) and (max-width: 767px) {
+  .project {
+    position: relative;
+    font-family: "DM Sans", Helvetica, Arial, sans-serif;
+    width: 100vw;
+  }
+
+  .project-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 0 0 15px 0;
+  }
+
+  .mockup {
+    width: 100%;
+  }
+
+  .content {
+    padding: 0 10vw 10vh 10vw;
+  }
+
+  .content p {
+    font-size: 0.8rem;
+    font-weight: 100;
+  }
+
+  .project-btn {
+    height: 40px;
+    width: 100px;
+    margin: 0 5px;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(0, 102, 255);
+    border-radius: 7px;
+    border: none;
+    font-weight: 800;
+  }
+
+  .project-btn:hover {
+    color: rgb(0, 102, 255);
+    background-color: white;
+  }
+
+  #Flex {
+    margin-top: 15vh;
+  }
+
+  #img-Flex {
+    display: none;
+  }
+
+  #img-Weekly {
+    display: none;
+  }
+
+  #beer {
+    padding: 33vh;
+  }
+
+  #img-1hike2beer {
+    display: none;
+  }
+}
+
+@media only screen and (max-height: 667px) {
+  #Flex {
+    margin-top: 15vh;
+  }
+}
+
+@media only screen and (min-width: 768px) and (min-height: 1024px) {
+  .project {
+    position: relative;
+    height: 100vh;
+    padding: 10vh 0vw;
+  }
+
+  .project-title {
+    font-size: 3rem;
+    margin: 0 auto;
+  }
+
+  .mockup {
+    width: 400px;
+    display: inline-block;
+    position: absolute;
+    left: -10px;
+  }
+
+  .content {
+    vertical-align: middle;
+    display: inline-block;
+    position: absolute;
+    left: 35vw;
+    width: 56vw;
+    padding: 0 0 0 15vw;
+  }
+
+  .content p {
+    font-size: 0.9rem;
+  }
+
+  .project-btn {
+    height: 50px;
+    width: 100px;
+    margin: 0 5px;
+    font-size: 1.25rem;
+    color: white;
+    background-color: rgb(0, 102, 255);
+    border-radius: 7px;
+    border: none;
+  }
+
+  .project-btn:hover {
+    color: rgb(0, 102, 255);
+    background-color: white;
+  }
+
+  #img-Flex {
+    position: absolute;
+    bottom: 150px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #Weekly {
+    padding: 20vh;
+  }
+
+  #img-Weekly {
+    position: absolute;
+    width: 300px;
+    left: 23vw;
+    bottom: 190px;
+    display: block;
+  }
+
+  #beer {
+    padding: 33vh;
+  }
+
+  #img-1hike2beer {
+    position: absolute;
+    bottom: 150px;
+    left: 0;
+    display: block;
+    width: 450px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (min-height: 1366px) {
+  .mockup {
+    width: 550px;
+    display: inline-block;
+    position: absolute;
+  }
+
+  .project-title {
+    font-size: 4rem;
+  }
+
+  .content {
+    left: 35vw;
+    width: 56vw;
+    padding: 0 0 0 15vw;
+  }
+
+  .content p {
+    font-size: 1.25rem;
+  }
+
+  #img-Flex {
+    width: 600px;
+    bottom: 250px;
+  }
+
+  #img-Weekly {
+    width: 450px;
+  }
+
+  #img-1hike2beer {
+    width: 600px;
+  }
+}

@@ -1,0 +1,95 @@
+.about {
+  font-family: "DM Sans", Helvetica, Arial, sans-serif;
+  padding: 10vh 10vw;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.about h2 {
+  color: rgb(0, 102, 255);
+}
+
+@media only screen and (max-height: 823px) and (max-width: 767px) {
+  #laptop-icon {
+    display: none;
+  }
+
+  .about h2 {
+    font-size: 2rem;
+  }
+
+  .about p {
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-height: 667px) {
+  #laptop-icon {
+    position: relative;
+    display: block;
+    max-width: 80%;
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (min-height: 1024px) {
+  .about {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    padding: 15vh 10vw;
+  }
+
+  .about-content {
+    position: absolute;
+    left: 35vw;
+    width: 56vw;
+  }
+
+  #laptop-icon {
+    display: block;
+    width: 320px;
+    position: relative;
+    margin: 0px 0px;
+    top: 375px;
+  }
+
+  .about h2 {
+    font-size: 2.5rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+    font-weight: 100;
+    background-color: white;
+    border-radius: 3px;
+    padding: 5px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (min-height: 1336px) {
+  .about-content {
+    width: 80%;
+    margin: 0 auto;
+    position: static;
+  }
+
+  .about h2 {
+    font-size: 3rem;
+  }
+
+  .about p {
+    font-size: 1.5rem;
+  }
+
+  #laptop-icon {
+    position: relative;
+    margin: 0 auto;
+    width: 375px;
+    top: 20px;
+  }
+}

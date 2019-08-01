@@ -1,0 +1,106 @@
+.hero {
+  height: 100vh;
+  padding: 15vh;
+}
+
+#headshot {
+  border-radius: 100%;
+  max-width: 600px;
+}
+
+#title {
+  font-family: "DM Sans", Helvetica, Arial, sans-serif;
+  color: rgb(0, 102, 255);
+  font-size: 3rem;
+  margin: 10px;
+}
+
+#subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  top: 110px;
+  margin: 0 auto;
+}
+
+#sun {
+  position: fixed;
+  width: 250px;
+  z-index: -1;
+  left: 5vw;
+}
+
+#hand-wave {
+  position: absolute;
+  right: 4vw;
+  top: 50vh;
+  width: 150px;
+}
+
+@media only screen and (max-height: 823px) and (max-width: 767px) {
+  .hero {
+    padding: 20vh 0;
+  }
+
+  #subtitle {
+    max-width: 300px;
+  }
+
+  #sun {
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    width: 100px;
+  }
+
+  #headshot {
+    width: 290px;
+    top: 15vh;
+  }
+
+  #hand-wave {
+    position: absolute;
+    width: 80px;
+    right: 0;
+    top: 250px;
+    z-index: 1;
+  }
+}
+
+@media only screen and (min-height: 823px) {
+  .hero {
+    padding: 25vh 0;
+  }
+
+  #sun {
+    top: 10vh;
+    width: 150px;
+  }
+
+  #hand-wave {
+    width: 100px;
+    top: 350px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (min-height: 1024px) {
+  #headshot {
+    width: 600px;
+    top: 10vh;
+  }
+
+  #title {
+    font-size: 3rem;
+  }
+
+  #subtitle {
+    font-family: "DM Sans", Helvetica, sans-serif;
+    font-size: 1.75rem;
+    max-width: 500px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (min-height: 1366px) {
+  .about p {
+    font-size: 1rem;
+  }
+}
