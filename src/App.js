@@ -3,6 +3,7 @@ import Project from "./Project";
 import "./CSS/App.css";
 import "./CSS/hero.css";
 import "./CSS/about.css";
+import "./CSS/contact.css";
 
 // icons
 import {
