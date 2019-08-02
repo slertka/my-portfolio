@@ -69,7 +69,7 @@ class App extends React.Component {
             to those classes with the click of the button. I made this app a
             solution for part-time yoga instructors to identify open classes
             at other studios in the area."
-          icons={[react, node, javascript, mongo, html, jwtLogo, css]}
+          icons={[react, node, javascript, jwtLogo, mongo, html, css]}
           miscImg={yoga}
           demo="https://floating-savannah-98427.herokuapp.com/"
           code="https://github.com/slertka/flex"
@@ -82,7 +82,7 @@ class App extends React.Component {
             weekly tasks and events. I created this app as an electronic
             replacement for paper planners to allow users the flexibility to
             plan their week as they desire."
-          icons={[node, jwtLogo, jQuery, javascript, mongo, html, css]}
+          icons={[node, javascript, jwtLogo, jQuery, mongo, html, css]}
           miscImg={pencil}
           demo="https://ancient-badlands-64634.herokuapp.com/"
           code="https://github.com/slertka/weekly"
@@ -104,7 +104,7 @@ class App extends React.Component {
 
         <section className="contact">
           <h2 className="project-title">{"Get in touch with me : )"}</h2>
-          <a href={resume} target="_blank">
+          <a href={resume} target="_blank" rel="noopener noreferrer">
             <button name="resume" className="contact-btn">
               <label htmlFor="name">Resume</label>
             </button>

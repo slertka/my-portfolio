@@ -6,7 +6,7 @@ export default function(props) {
     <section className="project" id={props.name}>
       <img
         src={props.icon}
-        alt="iphone xs mockup of weekly app"
+        alt={`iphone xs mockup of ${props.name}`}
         className="mockup"
       />
       <div className="content">
@@ -28,11 +28,7 @@ export default function(props) {
         <p>{props.description}</p>
         <div className="icon-container">{props.icons}</div>
       </div>
-      <img
-        src={props.miscImg}
-        alt="decorative image"
-        id={`img-${props.name}`}
-      />
+      <img src={props.miscImg} alt="decorative icon" id={`img-${props.name}`} />
     </section>
   );
 }
