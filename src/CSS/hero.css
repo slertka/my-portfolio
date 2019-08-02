@@ -31,8 +31,8 @@
 
 #hand-wave {
   position: absolute;
-  right: 4vw;
-  top: 50vh;
+  right: 15vw;
+  top: 62vh;
   width: 150px;
 }
 
@@ -41,8 +41,13 @@
     padding: 20vh 0;
   }
 
+  #title {
+    font-size: 2rem;
+  }
+
   #subtitle {
     max-width: 300px;
+    font-size: 1.5rem;
   }
 
   #sun {
@@ -73,12 +78,25 @@
 
   #sun {
     top: 10vh;
-    width: 150px;
+    width: 200px;
   }
 
   #hand-wave {
-    width: 100px;
-    top: 350px;
+    width: 150px;
+    top: 62vh;
+    right: 4vw;
+  }
+}
+
+@media only screen and (min-height: 1366px) {
+  #sun {
+    width: 250px;
+  }
+
+  #hand-wave {
+    right: 5vw;
+    top: 55vh;
+    width: 200px;
   }
 }
 

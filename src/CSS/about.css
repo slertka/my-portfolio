@@ -6,13 +6,33 @@
   position: relative;
 }
 
+.about-content {
+  position: relative;
+  width: 80%;
+  left: 17vw;
+}
+
 .about h2 {
   color: rgb(0, 102, 255);
+  font-size: 3rem;
+}
+
+.about p {
+  font-size: 1.15rem;
+}
+
+#laptop-icon {
+  position: 150;
 }
 
 @media only screen and (max-height: 823px) and (max-width: 767px) {
   #laptop-icon {
     display: none;
+  }
+
+  .about-content {
+    width: 100%;
+    left: 0;
   }
 
   .about h2 {
