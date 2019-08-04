@@ -1,0 +1,19 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/CSS/Project.css":
+/*!********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/CSS/Project.css ***!
+  \********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".mockup {\n  width: 550px;\n  display: inline-block;\n}\n\n.project {\n  position: relative;\n  height: 120vh;\n  padding: 10vh 0vw;\n}\n\n.content {\n  display: inline-block;\n  width: 500px;\n  position: relative;\n  top: -50px;\n}\n\n.project-title {\n  font-size: 3rem;\n  margin: 5px auto;\n}\n\n.content p {\n  font-size: 1.25rem;\n}\n\n.project-btn {\n  height: 50px;\n  width: 100px;\n  margin: 0 5px;\n  font-size: 1.25rem;\n  color: white;\n  background-color: rgb(0, 102, 255);\n  border-radius: 7px;\n  border: none;\n}\n\n.project-btn:hover {\n  color: rgb(0, 102, 255);\n  background-color: white;\n}\n\n#img-Flex {\n  position: relative;\n  top: -100px;\n}\n\n#img-Weekly {\n  width: 400px;\n  position: relative;\n  top: -40px;\n  left: 20px;\n}\n\n#img-1hike2beer {\n  position: relative;\n  top: -250px;\n  left: -400px;\n}\n\n@media only screen and (max-height: 823px), (max-width: 767px) {\n  .project {\n    font-family: \"DM Sans\", Helvetica, Arial, sans-serif;\n    height: 100%;\n    padding: 0;\n  }\n\n  .project-title {\n    font-size: 2rem;\n    font-weight: 700;\n    margin: 0 auto;\n    padding: 30px 0 15px 0;\n  }\n\n  .mockup {\n    width: 100%;\n  }\n\n  .content {\n    padding: 0 5vh 10vw 5vh;\n    width: 100%;\n  }\n\n  .content p {\n    font-size: 0.8rem;\n    font-weight: 100;\n  }\n\n  .project-btn {\n    height: 40px;\n    width: 100px;\n    margin: 0 5px;\n    font-size: 1rem;\n    font-weight: 800;\n  }\n\n  #Flex {\n    margin-top: 15vh;\n  }\n\n  #img-Flex {\n    display: none;\n  }\n\n  #Weekly .content {\n    top: -50px;\n  }\n\n  #img-Weekly {\n    display: none;\n  }\n\n  #beer {\n    padding: 33vh;\n  }\n\n  #img-1hike2beer {\n    display: none;\n  }\n}\n\n@media only screen and (max-height: 667px) {\n  #Flex {\n    margin-top: 20vh;\n  }\n}\n\n@media only screen and (min-width: 768px), (min-height: 1024px) {\n  .mockup {\n    width: 400px;\n    display: inline-block;\n    position: absolute;\n    left: -10px;\n  }\n\n  .content {\n    left: 145px;\n    margin: 0 auto;\n    width: 50%;\n    top: 10px;\n  }\n\n  .content p {\n    font-size: 0.9rem;\n  }\n\n  #img-Flex {\n    top: 30px;\n    display: block;\n    margin: 0 auto;\n  }\n\n  #img-Weekly {\n    width: 375px;\n    left: 23vw;\n    top: 80px;\n    display: block;\n  }\n\n  #beer {\n    padding: 33vh;\n  }\n\n  #img-1hike2beer {\n    top: -40px;\n    left: 0;\n    display: block;\n    width: 450px;\n  }\n}\n\n@media only screen and (min-width: 1024px), (min-height: 1366px) {\n  .mockup {\n    position: absolute;\n    width: 550px;\n  }\n\n  .project-title {\n    font-size: 4rem;\n  }\n\n  .content {\n    left: 200px;\n    top: -20px;\n  }\n\n  .content p {\n    font-size: 1.5rem;\n  }\n\n  #img-Flex {\n    width: 600px;\n    bottom: 250px;\n  }\n\n  #img-Weekly {\n    width: 450px;\n  }\n\n  #img-1hike2beer {\n    width: 600px;\n  }\n}\n\n@media only screen and (min-width: 1441px) {\n}\n", ""]);
+
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.5470dec2d9dd65bd58f5.hot-update.js.map

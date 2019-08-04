@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="shortcut icon" href="http://localhost:3000/">
+    <link href="./Portfolio _ Lertkantitham_files/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Portfolio | Lertkantitham</title>
+  <style type="text/css">body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+</style><style type="text/css">.mockup {
+  width: 550px;
+  display: inline-block;
+}
+
+.project {
+  position: relative;
+  height: 120vh;
+  padding: 10vh 0vw;
+}
+
+.content {
+  display: inline-block;
+  width: 500px;
+  position: relative;
+  top: -50px;
+}
+
+.project-title {
+  font-size: 3rem;
+  margin: 5px auto;
+}
+
+.content p {
+  font-size: 1.25rem;
+}
+
+.project-btn {
+  height: 50px;
+  width: 100px;
+  margin: 0 5px;
+  font-size: 1.25rem;
+  color: white;
+  background-color: rgb(0, 102, 255);
+  border-radius: 7px;
+  border: none;
+}
+
+.project-btn:hover {
+  color: rgb(0, 102, 255);
+  background-color: white;
+}
+
+#img-Flex {
+  position: relative;
+  top: -100px;
+}
+
+#img-Weekly {
+  width: 400px;
+  position: relative;
+  top: -40px;
+  left: 20px;
+}
+
+#img-1hike2beer {
+  position: relative;
+  top: -250px;
+  left: -400px;
+}
+
+@media only screen and (max-height: 823px), (max-width: 767px) {
+  .project {
+    font-family: "DM Sans", Helvetica, Arial, sans-serif;
+    height: 100%;
+    padding: 0;
+  }
+
+  .project-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 30px 0 15px 0;
+  }
+
+  .mockup {
+    width: 100%;
+  }
+
+  .content {
+    padding: 0 5vh 10vw 5vh;
+    width: 100%;
+  }
+
+  .content p {
+    font-size: 0.8rem;
+    font-weight: 100;
+  }
+
+  .project-btn {
+    height: 40px;
+    width: 100px;
+    margin: 0 5px;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+
+  #Flex {
+    margin-top: 15vh;
+  }
+
+  #img-Flex {
+    display: none;
+  }
+
+  #Weekly .content {
+    top: -50px;
+  }
+
+  #img-Weekly {
+    display: none;
+  }
+
+  #beer {
+    padding: 33vh;
+  }
+
+  #img-1hike2beer {
+    display: none;
+  }
+}
+
+@media only screen and (max-height: 667px) {
+  #Flex {
+    margin-top: 20vh;
+  }
+}
+
+@media only screen and (min-width: 768px), (min-height: 1024px) {
+  .mockup {
+    width: 400px;
+    display: inline-block;
+    position: absolute;
+    left: -10px;
+  }
+
+  .content {
+    left: 145px;
+    margin: 0 auto;
+    width: 50%;
+    top: 10px;
+  }
+
+  .content p {
+    font-size: 0.9rem;
+  }
+
+  #img-Flex {
+    top: 30px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #img-Weekly {
+    width: 375px;
+    left: 23vw;
+    top: 80px;
+    display: block;
+  }
+
+  #beer {
+    padding: 33vh;
+  }
+
+  #img-1hike2beer {
+    top: -40px;
+    left: 0;
+    display: block;
+    width: 450px;
+  }
+}
+
+@media only screen and (min-width: 1024px), (min-height: 1366px) {
+  .mockup {
+    position: absolute;
+    width: 550px;
+  }
+
+  .project-title {
+    font-size: 4rem;
+  }
+
+  .content {
+    left: 200px;
+    top: -20px;
+  }
+
+  .content p {
+    font-size: 1.5rem;
+  }
+
+  #img-Flex {
+    width: 600px;
+    bottom: 250px;
+  }
+
+  #img-Weekly {
+    width: 450px;
+  }
+
+  #img-1hike2beer {
+    width: 600px;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+}
+</style><style type="text/css">html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+</style><style type="text/css">.hero {
+  height: 100vh;
+  padding: 15vh;
+}
+
+#headshot {
+  border-radius: 100%;
+  max-width: 600px;
+}
+
+#title {
+  font-family: "DM Sans", Helvetica, Arial, sans-serif;
+  color: rgb(0, 102, 255);
+  font-size: 3rem;
+  margin: 10px;
+}
+
+#subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  top: 110px;
+  margin: 0 auto;
+}
+
+#sun {
+  position: fixed;
+  width: 250px;
+  z-index: -1;
+  left: 5vw;
+}
+
+#hand-wave {
+  position: absolute;
+  right: 15vw;
+  top: 65vh;
+  width: 150px;
+}
+
+/* small screens */
+@media only screen and (max-height: 823px) and (max-width: 767px) {
+  .hero {
+    padding: 20vh 0;
+  }
+
+  #title {
+    font-size: 2rem;
+  }
+
+  #subtitle {
+    max-width: 300px;
+    font-size: 1.5rem;
+  }
+
+  #sun {
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    width: 100px;
+  }
+
+  #headshot {
+    width: 290px;
+    top: 15vh;
+  }
+
+  #hand-wave {
+    position: absolute;
+    width: 80px;
+    right: 0;
+    top: 250px;
+    z-index: 1;
+  }
+}
+
+/* long mobile screens */
+@media only screen and (min-height: 823px) {
+  .hero {
+    padding: 25vh 0;
+  }
+
+  #sun {
+    top: 10vh;
+    width: 200px;
+  }
+
+  #hand-wave {
+    width: 150px;
+    top: 62vh;
+    right: 4vw;
+  }
+}
+
+/* ipad, medium-large screens */
+@media only screen and (min-width: 768px) and (min-height: 1024px) {
+  #headshot {
+    width: 600px;
+    top: 10vh;
+  }
+
+  #title {
+    font-size: 3rem;
+  }
+
+  #subtitle {
+    font-family: "DM Sans", Helvetica, sans-serif;
+    font-size: 1.75rem;
+    max-width: 500px;
+  }
+}
+
+/* large screens */
+@media only screen and (min-width: 1024px) and (min-height: 1366px) {
+  .about p {
+    font-size: 1rem;
+  }
+}
+
+/* x-large */
+@media only screen and (min-width: 1441px) and (min-height: 1399px) {
+  #sun {
+    width: 350px;
+    left: 12vw;
+  }
+
+  #headshot {
+    width: 800px;
+    max-width: 800px;
+  }
+
+  #title {
+    font-size: 3.5rem;
+  }
+
+  #subtitle {
+    font-size: 2rem;
+    width: 700px;
+    max-width: 700px;
+  }
+
+  #hand-wave {
+    width: 250px;
+    right: 25vw;
+  }
+}
+</style><style type="text/css">.about {
+  font-family: "DM Sans", Helvetica, Arial, sans-serif;
+  padding: 10vh 10vw;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.about-content {
+  position: relative;
+  width: 80%;
+  left: 17vw;
+}
+
+.about h2 {
+  color: rgb(0, 102, 255);
+  font-size: 3rem;
+}
+
+.about p {
+  font-size: 1.15rem;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#laptop-icon {
+  position: 150;
+}
+
+@media only screen and (max-height: 823px) and (max-width: 767px) {
+  #laptop-icon {
+    display: none;
+  }
+
+  .about-content {
+    width: 100%;
+    left: 0;
+  }
+
+  .about h2 {
+    font-size: 2rem;
+  }
+
+  .about p {
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-height: 667px) {
+  #laptop-icon {
+    display: block;
+    max-width: 80%;
+    width: 250px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (min-height: 1024px) {
+  .about {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    padding: 15vh 10vw;
+  }
+
+  .about-content {
+    width: 80%;
+    margin: 0 auto;
+    position: static;
+  }
+
+  #laptop-icon {
+    position: relative;
+    margin: 0 auto;
+    width: 375px;
+    top: 20px;
+  }
+
+  .about h2 {
+    font-size: 3em;
+  }
+
+  .about p {
+    font-size: 1.2rem;
+    font-weight: 100;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (min-height: 1440px) {
+  .about-content {
+    max-width: 70%;
+  }
+
+  .about h2 {
+    font-size: 4rem;
+  }
+
+  .about p {
+    font-size: 1.5rem;
+  }
+}
+</style><style type="text/css">.contact {
+  padding: 15vh 5vw;
+  height: 100vh;
+}
+
+@media only screen and (min-width: 768px), (min-height: 1024px) {
+  .contact {
+    padding: 35vh 0px;
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+.contact-btn {
+  height: 50px;
+  font-family: "DM Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  background-color: rgb(0, 102, 255);
+  color: white;
+  margin: 20px auto;
+}
+
+.contact-btn:hover {
+  color: rgb(0, 102, 255);
+  background-color: white;
+}
+</style><style type="text/css">.icon {
+  width: 45px;
+  margin: 5px;
+}
+</style><script charset="utf-8" src="./Portfolio _ Lertkantitham_files/main.65af75b60024a1d8b0c0.hot-update.js"></script><script charset="utf-8" src="./Portfolio _ Lertkantitham_files/main.9e6ffae234760ccfb925.hot-update.js"></script><script charset="utf-8" src="./Portfolio _ Lertkantitham_files/main.c90f8694f5b5f93f967e.hot-update.js"></script><script charset="utf-8" src="./Portfolio _ Lertkantitham_files/main.5470dec2d9dd65bd58f5.hot-update.js"></script><script charset="utf-8" src="./Portfolio _ Lertkantitham_files/main.dfdf9e29fdd258b106ee.hot-update.js"></script><script charset="utf-8" src="./Portfolio _ Lertkantitham_files/main.8421e7d84969d0e901bf.hot-update.js"></script><script charset="utf-8" src="./Portfolio _ Lertkantitham_files/main.c2eaa304f18705226a03.hot-update.js"></script><script charset="utf-8" src="./Portfolio _ Lertkantitham_files/main.99fb9f0c52d903948f31.hot-update.js"></script><script charset="utf-8" src="./Portfolio _ Lertkantitham_files/main.0eeec1fa7acf17af5461.hot-update.js"></script><script charset="utf-8" src="./Portfolio _ Lertkantitham_files/main.a03268d30ff6f9afcffb.hot-update.js"></script><script charset="utf-8" src="./Portfolio _ Lertkantitham_files/main.5fdf671fbf4c20e6d85e.hot-update.js"></script><script charset="utf-8" src="./Portfolio _ Lertkantitham_files/main.a9b91a8d5255e1d2bce8.hot-update.js"></script><script charset="utf-8" src="./Portfolio _ Lertkantitham_files/main.d18d1c4e4c017183d179.hot-update.js"></script><script charset="utf-8" src="./Portfolio _ Lertkantitham_files/main.35fd8c4973f2cfc9cfda.hot-update.js"></script><script charset="utf-8" src="./Portfolio _ Lertkantitham_files/main.352f47bd2d1bf11d8799.hot-update.js"></script></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="App"><header class="hero"><img src="./Portfolio _ Lertkantitham_files/sunshine.aee3d911.gif" alt="animated sun" id="sun"><img src="./Portfolio _ Lertkantitham_files/hand_wave.2eefdf88.gif" alt="animated hand wave" id="hand-wave"><img src="./Portfolio _ Lertkantitham_files/SerenaLertkantitham.0418cedf.jpg" alt="headshot" id="headshot"><h1 id="title">Hi, I'm Serena.</h1><h2 id="subtitle">I'm a fullstack web developer and a part-time yogi.</h2></header><section class="about"><div class="about-content"><h2 class="project-title">About me</h2><p>I am a web developer and recent graduate of the Fullstack Web Development bootcamp at Thinkful. I love coding because solving problems and seeing ideas come to life on the page is supremely satisfying. I geek out on higher order functions, finding and learning awesome libraries or frameworks and getting front and back ends to play nicely. When I'm not coding, I'm often found at the yoga studio, finding the best margarita in town, or working on my next knitting project.</p></div><img src="./Portfolio _ Lertkantitham_files/online.5cb35bf3.gif" alt="cute online gif" id="laptop-icon"></section><section class="project" id="Flex"><img src="./Portfolio _ Lertkantitham_files/flex-mockup.9d65743e.png" alt="iphone xs mockup of Flex" class="mockup"><div class="content"><h2 class="project-title">Flex</h2><a href="https://floating-savannah-98427.herokuapp.com/" target="_blank" rel="noopener noreferrer"><button name="demo" class="project-btn"><label for="demo">Demo</label></button></a><a href="https://github.com/slertka/flex" target="_blank" rel="noopener noreferrer"><button name="source" class="project-btn"><label for="source">Code</label></button></a><p>Flex connects yoga instructors and yoga studios to connect open classes to certified instructors. Yoga studios can post available class openings they have and yoga instructors can directly apply to those classes with the click of the button. I made this app a solution for part-time yoga instructors to identify open classes at other studios in the area.</p><div class="icon-container"><img src="./Portfolio _ Lertkantitham_files/React.js_logo-512.png" class="icon" alt="React.js icon"><img src="./Portfolio _ Lertkantitham_files/nodejs-icon.svg" class="icon" alt="Node.js icon"><img src="./Portfolio _ Lertkantitham_files/ES6LOGO.svg" class="icon" alt="javascript icon"><img src="./Portfolio _ Lertkantitham_files/logo.png" class="icon" alt="JSON web token icon"><img src="./Portfolio _ Lertkantitham_files/mongodb-3-1175138.png" class="icon" alt="MongoDB icon"><img src="./Portfolio _ Lertkantitham_files/HTML5_Logo_512.png" class="icon" alt="HTML5 icon"><img src="./Portfolio _ Lertkantitham_files/badge-css-3-512.png" class="icon" alt="CSS3 icon"></div></div><img src="./Portfolio _ Lertkantitham_files/yoga.2c947b26.gif" alt="decorative icon" id="img-Flex"></section><section class="project" id="Weekly"><img src="./Portfolio _ Lertkantitham_files/weekly-mockup.fe35f9d9.png" alt="iphone xs mockup of Weekly" class="mockup"><div class="content"><h2 class="project-title">Weekly</h2><a href="https://ancient-badlands-64634.herokuapp.com/" target="_blank" rel="noopener noreferrer"><button name="demo" class="project-btn"><label for="demo">Demo</label></button></a><a href="https://github.com/slertka/weekly" target="_blank" rel="noopener noreferrer"><button name="source" class="project-btn"><label for="source">Code</label></button></a><p>Weekly is an open dated planner that allows users to track their weekly tasks and events. I created this app as an electronic replacement for paper planners to allow users the flexibility to plan their week as they desire.</p><div class="icon-container"><img src="./Portfolio _ Lertkantitham_files/nodejs-icon.svg" class="icon" alt="Node.js icon"><img src="./Portfolio _ Lertkantitham_files/ES6LOGO.svg" class="icon" alt="javascript icon"><img src="./Portfolio _ Lertkantitham_files/logo.png" class="icon" alt="JSON web token icon"><img src="./Portfolio _ Lertkantitham_files/jquery-10-1175155.png" class="icon" alt="jQuery icon"><img src="./Portfolio _ Lertkantitham_files/mongodb-3-1175138.png" class="icon" alt="MongoDB icon"><img src="./Portfolio _ Lertkantitham_files/HTML5_Logo_512.png" class="icon" alt="HTML5 icon"><img src="./Portfolio _ Lertkantitham_files/badge-css-3-512.png" class="icon" alt="CSS3 icon"></div></div><img src="./Portfolio _ Lertkantitham_files/pencil.15e39e75.gif" alt="decorative icon" id="img-Weekly"></section><section class="project" id="1hike2beer"><img src="./Portfolio _ Lertkantitham_files/1hike2beer-mockup.eb884f6a.png" alt="iphone xs mockup of 1hike2beer" class="mockup"><div class="content"><h2 class="project-title">1hike2beer</h2><a href="https://slertka.github.io/1hike2beer/" target="_blank" rel="noopener noreferrer"><button name="demo" class="project-btn"><label for="demo">Demo</label></button></a><a target="_blank" rel="noopener noreferrer"><button name="source" class="project-btn"><label for="source">Code</label></button></a><p>1hike2beer integrates 3rd party APIs to allow users to simultaneously search for hikes and breweries in the same area. This app was inspired by going on hikes with friends and wanting to plan in advance to find breweries that would be open after so we could all enjoy some beers together.</p><div class="icon-container"><img src="./Portfolio _ Lertkantitham_files/jquery-10-1175155.png" class="icon" alt="jQuery icon"><img src="./Portfolio _ Lertkantitham_files/ES6LOGO.svg" class="icon" alt="javascript icon"><img src="./Portfolio _ Lertkantitham_files/HTML5_Logo_512.png" class="icon" alt="HTML5 icon"><img src="./Portfolio _ Lertkantitham_files/badge-css-3-512.png" class="icon" alt="CSS3 icon"></div></div><img src="./Portfolio _ Lertkantitham_files/beer.1dc7bc1e.gif" alt="decorative icon" id="img-1hike2beer"></section><section class="contact"><h2 class="project-title">Get in touch with me : )</h2><a href="http://localhost:3000/static/media/resume_Lertkantitham.00e4626d.pdf" target="_blank" rel="noopener noreferrer"><button name="resume" class="contact-btn"><label for="name">Resume</label></button></a><a href="mailto:lertkantitham@gmail.com"><button name="email" class="contact-btn"><label for="email">Email</label></button></a><a href="https://www.linkedin.com/in/lertkantitham" target="_blank" rel="noopener noreferrer"><button name="linkedIn" class="contact-btn"><label for="linkedIn">LinkedIn</label></button></a><a href="https://www.github.com/slertka" target="_blank" rel="noopener noreferrer"><button name="github" class="contact-btn"><label for="github">Github</label></button></a></section></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="./Portfolio _ Lertkantitham_files/bundle.js"></script><script src="./Portfolio _ Lertkantitham_files/1.chunk.js"></script><script src="./Portfolio _ Lertkantitham_files/main.chunk.js"></script><script src="./Portfolio _ Lertkantitham_files/main.cecdc2c9a82f30ead7da.hot-update.js"></script>
+
+</body></html>

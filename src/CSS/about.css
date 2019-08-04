@@ -7,9 +7,9 @@
 }
 
 .about-content {
-  position: relative;
+  margin: 0 auto;
+  position: static;
   width: 80%;
-  left: 17vw;
 }
 
 .about h2 {
@@ -19,6 +19,9 @@
 
 .about p {
   font-size: 1.15rem;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 #laptop-icon {
@@ -32,7 +35,6 @@
 
   .about-content {
     width: 100%;
-    left: 0;
   }
 
   .about h2 {
@@ -48,10 +50,9 @@
 
 @media only screen and (min-height: 667px) {
   #laptop-icon {
-    position: relative;
     display: block;
     max-width: 80%;
-    width: 300px;
+    width: 250px;
     margin: 0 auto;
   }
 }
@@ -65,37 +66,29 @@
   }
 
   .about-content {
-    position: absolute;
-    left: 35vw;
-    width: 56vw;
+    width: 80%;
   }
 
   #laptop-icon {
-    display: block;
-    width: 320px;
     position: relative;
-    margin: 0px 0px;
-    top: 375px;
+    margin: 0 auto;
+    width: 375px;
+    top: -20px;
   }
 
   .about h2 {
-    font-size: 2.5rem;
+    font-size: 3em;
   }
 
   .about p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 100;
-    background-color: white;
-    border-radius: 3px;
-    padding: 5px;
   }
 }
 
-@media only screen and (min-width: 1024px) and (min-height: 1336px) {
+@media only screen and (min-width: 1024px) and (min-height: 1440px) {
   .about-content {
-    width: 80%;
-    margin: 0 auto;
-    position: static;
+    max-width: 70%;
   }
 
   .about h2 {
@@ -104,12 +97,5 @@
 
   .about p {
     font-size: 1.5rem;
-  }
-
-  #laptop-icon {
-    position: relative;
-    margin: 0 auto;
-    width: 375px;
-    top: 20px;
   }
 }

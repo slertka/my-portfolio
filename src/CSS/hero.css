@@ -32,10 +32,11 @@
 #hand-wave {
   position: absolute;
   right: 15vw;
-  top: 62vh;
+  top: 65vh;
   width: 150px;
 }
 
+/* small screens */
 @media only screen and (max-height: 823px) and (max-width: 767px) {
   .hero {
     padding: 20vh 0;
@@ -71,6 +72,7 @@
   }
 }
 
+/* long mobile screens */
 @media only screen and (min-height: 823px) {
   .hero {
     padding: 25vh 0;
@@ -88,18 +90,7 @@
   }
 }
 
-@media only screen and (min-height: 1366px) {
-  #sun {
-    width: 250px;
-  }
-
-  #hand-wave {
-    right: 5vw;
-    top: 55vh;
-    width: 200px;
-  }
-}
-
+/* ipad, medium-large screens */
 @media only screen and (min-width: 768px) and (min-height: 1024px) {
   #headshot {
     width: 600px;
@@ -117,8 +108,37 @@
   }
 }
 
+/* large screens */
 @media only screen and (min-width: 1024px) and (min-height: 1366px) {
   .about p {
     font-size: 1rem;
+  }
+}
+
+/* x-large */
+@media only screen and (min-width: 1441px) and (min-height: 1399px) {
+  #sun {
+    width: 350px;
+    left: 12vw;
+  }
+
+  #headshot {
+    width: 800px;
+    max-width: 800px;
+  }
+
+  #title {
+    font-size: 3.5rem;
+  }
+
+  #subtitle {
+    font-size: 2rem;
+    width: 700px;
+    max-width: 700px;
+  }
+
+  #hand-wave {
+    width: 250px;
+    right: 25vw;
   }
 }

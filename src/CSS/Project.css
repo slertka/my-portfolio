@@ -22,7 +22,7 @@
 }
 
 .content p {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
 }
 
 .project-btn {
@@ -44,6 +44,7 @@
 #img-Flex {
   position: relative;
   top: -100px;
+  display: block;
 }
 
 #img-Weekly {
@@ -51,12 +52,14 @@
   position: relative;
   top: -40px;
   left: 20px;
+  display: block;
 }
 
 #img-1hike2beer {
   position: relative;
   top: -250px;
-  left: -400px;
+  left: -25vw;
+  display: block;
 }
 
 @media only screen and (max-height: 823px) and (max-width: 767px) {
@@ -170,6 +173,33 @@
   }
 }
 
+@media only screen and (min-width: 1024px) and (min-height: 768px) {
+  .mockup {
+    width: 500px;
+    position: relative;
+    left: -5vw;
+  }
+
+  .content {
+    left: -8vw;
+  }
+
+  #img-Flex {
+    top: -80px;
+    left: 100px;
+  }
+
+  #img-Weekly {
+    top: -20px;
+    left: 200px;
+  }
+
+  #img-1hike2beer {
+    top: -180px;
+    left: 80px;
+  }
+}
+
 @media only screen and (min-width: 1024px) and (min-height: 1366px) {
   .mockup {
     position: absolute;
@@ -181,8 +211,43 @@
   }
 
   .content {
-    left: 200px;
-    top: -20px;
+    left: 15vw;
+    top: -1vh;
+  }
+
+  .content p {
+    font-size: 1.5rem;
+  }
+
+  #img-Flex {
+    width: 500px;
+    left: -150px;
+  }
+
+  #img-Weekly {
+    width: 450px;
+    top: 10px;
+  }
+
+  #img-1hike2beer {
+    width: 500px;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (min-height: 1367px) {
+  .mockup {
+    width: 600px;
+    left: 1vw;
+  }
+
+  .project-title {
+    font-size: 4rem;
+  }
+
+  .content {
+    width: 50%;
+    top: -8vh;
+    left: 1vw;
   }
 
   .content p {
@@ -192,13 +257,17 @@
   #img-Flex {
     width: 600px;
     bottom: 250px;
+    left: -1vw;
   }
 
   #img-Weekly {
     width: 450px;
+    left: 30vw;
   }
 
   #img-1hike2beer {
     width: 600px;
+    left: 20vw;
+    top: -8vh;
   }
 }
